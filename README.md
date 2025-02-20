@@ -21,8 +21,11 @@ Vous pouvez voir le formulaire en action ici : [https://shoopstv.github.io/Formu
 Use code with caution.
 Markdown
 Formulaire-de-contact-basique/
+
 ├── index.html # Page HTML principale
+
 ├── style.css # Fichier CSS pour le style
+
 └── script.js # Fichier JavaScript pour la validation
 
 ## Fonctionnement
