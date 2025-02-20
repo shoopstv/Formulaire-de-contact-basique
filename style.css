@@ -1,0 +1,76 @@
+form {
+    background-color: #333; /* Gris foncé, plus doux que le noir pur */
+    width: 90%; /* Plus responsive */
+    max-width: 500px; /* Limite la largeur maximale */
+    border-radius: 15px; /* Coins arrondis plus doux */
+    padding: 20px; /* Espacement interne */
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 30px auto; /* Centrage horizontal et marges verticales */
+}
+
+form h1 {
+    color: white;
+    text-align: center;
+    font-size: 1.5em; /* Taille de police relative, plus responsive */
+    margin-bottom: 1em;  /* Ajout d'un espace sous le titre */
+}
+
+label {
+    color: rgb(43, 134, 209);
+    font-weight: bold;
+    display: block;  /* Label sur une ligne séparée */
+    margin-bottom: 5px; /* Espacement sous le label */
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    width: 100%; /* Prend toute la largeur disponible */
+    padding: 8px; /* Plus d'espace à l'intérieur */
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ccc; /* Bordure légère */
+    border-radius: 5px; /* Coins arrondis */
+    margin-bottom: 10px; /* Espacement entre les champs */
+    font-size: 1em; /* Taille de police relative */
+}
+
+textarea {
+    height: 100px; /* Hauteur plus grande pour le message */
+    resize: vertical; /* Permet de redimensionner verticalement */
+}
+
+#buttons-row {
+    display: flex;
+    justify-content: space-between; /* Espacement égal entre les boutons */
+    gap: 10px;       /*Un espacement entre les boutons (plus moderne que margin)*/
+}
+
+button {
+    flex: 1;       /*Les boutons prennent la meme taille*/
+    padding: 10px 15px; /* Espacement interne */
+    border: none;
+    border-radius: 8px; /* Coins arrondis */
+    font-size: 1em;
+    cursor: pointer; /* Curseur en forme de main */
+    transition: background-color 0.3s ease; /* Animation au survol */
+}
+
+button#send {
+    background-color: #d33b3b; /* Rouge plus moderne */
+    color: white;
+}
+
+button#reset {
+    background-color: #fdfd36; /* Jaune plus moderne */
+    color: black;
+}
+
+/* Effets de survol */
+button#send:hover {
+    background-color: #a02a2a; /* Rouge plus foncé au survol */
+}
+
+button#reset:hover {
+    background-color: #e0e02c; /* Jaune plus foncé au survol */
+}
